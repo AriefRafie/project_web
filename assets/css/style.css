@@ -205,6 +205,31 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/**
+* Login Button *
+*/
+.login-btn {
+  margin-left: 25px;
+  background: #ffd102;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+.login-btn:hover {
+  background: #b49405;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .login-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
